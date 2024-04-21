@@ -28,7 +28,7 @@ body{
 
 .container,
 .form__input,
-.form__button{
+a.form__button{
     font: 500 1rem 'Quicksand', sans-serif;
 }
 
@@ -94,7 +94,7 @@ body{
     color: var(--color-error)
 }
 
-.form__button{
+a.form__button{
     width: 100%;
     padding: 1rem 2rem;
     font-weight: bold;
@@ -105,13 +105,14 @@ body{
     outline: none;
     cursor: pointer;
     background: var(--color-primary);
+    text-decoration: none;
 }
 
-.form__button:hover{
+a.form__button:hover{
     background: var(--color-primary-dark)
 }
 
-.form__button:active{
+a.form__button:active{
     transform:scale(0.9);
 }
 
